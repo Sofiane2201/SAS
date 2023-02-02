@@ -105,5 +105,20 @@
         </div>
     </div>
 </div>
+<div class="slide" id="contact">
+    <div class="gauche">
+        <div class="container">
+            <div class="info">
+                <h3>Contactez-nous</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur sed nemo alias quae maiores necessitatibus ex dignissimos officiis dolorum.</p>
+            </div>
+            <div class="contact-social">
+                social media
+            </div>
+
+        </div>
+    </div>
+    <div class="droite"></div>
+</div>
 </body>
 </html>

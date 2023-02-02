@@ -149,13 +149,14 @@ header{
 
     h2{
         font-size: 36px;
+        padding: 25px 0;
     }
     .schools{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 25px;
-
+        padding-bottom: 25px;
         .card{
             box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
@@ -193,5 +194,50 @@ header{
         {
             grid-template-columns: 1fr ;
         }
+    }
+}
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    .gauche{
+        width: 35%;
+        height: 100vh;
+        background-color: $bg2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+        .container{
+            justify-content: center;
+            display:  flex;
+            flex-wrap: wrap;
+
+            .info{
+                background-color: silver;
+                width: 70%;
+                padding: 10%;
+                box-shadow: 0px 10px 0px #15d0e8;
+                position: relative;
+                left: 20%;
+                h3{
+                    padding: 20px 0;
+                    position: relative;
+                left: -30%;
+                font-size: 40px;
+                }
+            }
+    
+            .contact-social{
+                width: 60%;
+                margin-top: 30px;
+            }
+        }
+
+    .droite{
+        width: 65%;
+        height: 100vh;
+        background-color: $bg1;
     }
 }
