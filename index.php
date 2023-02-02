@@ -41,7 +41,69 @@
             </div>
         </div>
     </header>
-
+    <div class="wrapper">
+        <div id="jumbotron">
+            <h1>Lorem</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, vero maxime temporibus repellendus similique dignissimos eos repellat deleniti aliquid reprehenderit.</p>
+            <a href="#"id="contactez">contactez-nous</a>
+            <a href="#"id="voir">voir les établissements</a>
+        </div>
+    </div>
+</div>
+<div class="slide" id="eta">
+    <div class="wrapper">
+        <h2>Etablissement</h2>
+        <div class="schools">
+            <div class="card">
+                <img src="https://picsum.photos/400/300" alt="mon image">
+                <div class="info">
+                    <h3>school name</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, necessitatibus laboriosam ab delectus impedit error. Dicta autem, praesentium voluptatem delectus debitis explicabo asperiores laboriosam ut tenetur totam, distinctio, natus est labore tempora! Libero hic vitae, beatae quas incidunt voluptates maxime pariatur aut perferendis ut dicta consequuntur similique neque, laudantium tenetur.</p>
+                    <a href="#"class="savoir">en savoir plus</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/400/300" alt="mon image">
+                <div class="info">
+                    <h3>school name</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, necessitatibus laboriosam ab delectus impedit error. Dicta autem, praesentium voluptatem delectus debitis explicabo asperiores laboriosam ut tenetur totam, distinctio, natus est labore tempora! Libero hic vitae, beatae quas incidunt voluptates maxime pariatur aut perferendis ut dicta consequuntur similique neque, laudantium tenetur.</p>
+                    <a href="#"class="savoir">en savoir plus</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/400/300" alt="mon image">
+                <div class="info">
+                    <h3>school name</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, necessitatibus laboriosam ab delectus impedit error. Dicta autem, praesentium voluptatem delectus debitis explicabo asperiores laboriosam ut tenetur totam, distinctio, natus est labore tempora! Libero hic vitae, beatae quas incidunt voluptates maxime pariatur aut perferendis ut dicta consequuntur similique neque, laudantium tenetur.</p>
+                    <a href="#"class="savoir">en savoir plus</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/400/300" alt="mon image">
+                <div class="info">
+                    <h3>school name</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, necessitatibus laboriosam ab delectus impedit error. Dicta autem, praesentium voluptatem delectus debitis explicabo asperiores laboriosam ut tenetur totam, distinctio, natus est labore tempora! Libero hic vitae, beatae quas incidunt voluptates maxime pariatur aut perferendis ut dicta consequuntur similique neque, laudantium tenetur.</p>
+                    <a href="#"class="savoir">en savoir plus</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/400/300" alt="mon image">
+                <div class="info">
+                    <h3>school name</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, necessitatibus laboriosam ab delectus impedit error. Dicta autem, praesentium voluptatem delectus debitis explicabo asperiores laboriosam ut tenetur totam, distinctio, natus est labore tempora! Libero hic vitae, beatae quas incidunt voluptates maxime pariatur aut perferendis ut dicta consequuntur similique neque, laudantium tenetur.</p>
+                    <a href="#"class="savoir">en savoir plus</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/400/300" alt="mon image">
+                <div class="info">
+                    <h3>school name</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, necessitatibus laboriosam ab delectus impedit error. Dicta autem, praesentium voluptatem delectus debitis explicabo asperiores laboriosam ut tenetur totam, distinctio, natus est labore tempora! Libero hic vitae, beatae quas incidunt voluptates maxime pariatur aut perferendis ut dicta consequuntur similique neque, laudantium tenetur.</p>
+                    <a href="#"class="savoir">en savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

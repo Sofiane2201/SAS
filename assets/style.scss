@@ -32,6 +32,18 @@ $font:'roboto';
         justify-content: space-between;
     }
     
+    #home > &{
+        
+        height: calc(100vh - 113px);
+        align-items: center;
+        display: flex;
+
+        @media all and (max-width: 500px)
+        {
+            height: calc(100vh - 140px);
+        }
+
+    }
 
 }
 
@@ -39,6 +51,47 @@ $font:'roboto';
 #home{
     background-color: $bg3;
     font-family: $font;
+    #jumbotron{
+        color: white;
+        width: 40%;
+        h1{
+            font-size: 64px;
+            margin: 20px 0;
+        }
+        p{
+            margin-bottom:20px ;
+        }
+        a{
+            width: 40%;
+            background-color: blue;
+            margin-right:5px;
+            display: inline-block;
+            text-decoration: none;
+            line-height: 50px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+        @media all and  (max-width: 500px)
+        {
+            display:block;
+            width: 60%;
+            margin-bottom: 10px;
+        }
+        #contactez{
+            background-color: #15d0e8;
+        }
+        #voir{
+            background-color: transparent;
+            border: solid 1px white;
+        }
+
+        @media all and  (max-width: 768px)
+        {
+            width: 80%;
+        }
+    }
 }
 
 header{
@@ -79,10 +132,66 @@ header{
                     color: $color1;
                     text-decoration: none;
                     font-size: 24px;
+        
                 }
+            }
+            @media all  and (max-width: 768px)
+            {
+                display: none;
             }
         }
     }
 
+}
 
+#eta{
+    font-family: $font;
+
+    h2{
+        font-size: 36px;
+    }
+    .schools{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+
+        .card{
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+
+            img{
+                width:100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .info{
+                padding: 15px;
+
+                h3,p{
+                    margin-bottom: 15px;
+                }
+                a{
+                    display: block;
+                    background-color: #15d0e8;
+                    padding: 5px 10px;
+                    width: 150px;
+                    text-align: center;
+                    color: black;
+                    text-decoration: none;
+                    border-radius: 10px;
+
+                }
+                
+            }
+        }
+        @media all and (max-width: 768px)
+        {
+            grid-template-columns: 1fr 1fr ;
+        }
+        @media all and (max-width: 500px)
+        {
+            grid-template-columns: 1fr ;
+        }
+    }
 }
